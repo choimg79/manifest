@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="origin" />
-  <project name="u-boot" path="bootloader/uboot" revision="odroidn2-v2015.01"/>
+	<remote name="origin" fetch="./" />
+	<project name="u-boot" path="bootloader/uboot" revision="odroidn2-v2015.01"/>
 
 </manifest>
