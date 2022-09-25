@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 	<remote name="origin" fetch="https://github.com/choimg79/" />
+	<remote name="u-boot-hardkernel" fetch="https://github.com/hardkernel/u-boot.git" />
 	<default revision="main" remote="origin" />
 
-	<project name="u-boot" path="bootloader/uboot" revision="odroidn2-v2015.01"/>
+	<project name="u-boot" remote="u-boot-hardkernel" path="bootloader/uboot" revision="odroidn2-v2015.01"/>
 
 </manifest>
